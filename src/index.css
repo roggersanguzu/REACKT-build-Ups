@@ -1,0 +1,44 @@
+body{
+  background-color:#FFAA80 ;
+  text-align: center;
+}
+.information{
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 1.5px 1.5px 2px 2px #ccc;
+}
+.wrapper{
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper button{
+  padding: 20px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+.accordian{
+  width: 500px;
+}
+.item{
+  margin-top: 20px;
+  background-color: #614101;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+    box-shadow: 1.5px 1.5px 2px 2px #ccc;
+}
+.title{
+  color: aquamarine;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.content{
+  color: white;
+}
