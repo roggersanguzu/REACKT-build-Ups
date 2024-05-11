@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react' // The use of the use States
 import data from './data'
 
 function Explanation(){
